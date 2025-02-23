@@ -7,8 +7,8 @@ public class AreaCalculator {
         return Math.PI * radius * radius;
     }
     // Añadir métodos para calcular el área de un rectángulo y un triángulo
-    public static double rectangleArea(double length, double width) {
-    return length * width;
+    public static double triangleArea(double base, double height) {
+    return (base * height) / 2;
 }
 
 }
